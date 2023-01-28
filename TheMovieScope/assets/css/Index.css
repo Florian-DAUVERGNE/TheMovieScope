@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+div[id="div_operations_admin"] {
+    width				: 100px;
+    height				: 450px;
+    margin-left			: 0px;
+    background-color	: black;
+    text-align			: center;
+    border-radius		: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 40px;
+    padding: 5px;
+    color: Black;
+}
+
+input[type="submit"] {
+
+    margin-left: 0px;
+    margin-top: 5px;
+    color: white;
+    border: none;
+    font-size: smaller;
+    border-radius: 5px 5px 5px 5px;
+}
+
+form{
+    width        :100px;
+    margin-left  :600px;
+}
+
+
+div{
+    display				: inline-block;
+    width				: 200px;
+    height				: 150px;
+    vertical-align		: top;
+    color				: black;
+    background-color	: black;
+    text-align			: center;
+    padding-top			: 10px;
+    border-radius		: 5px 5px 5px 5px;
+}
+
+table {
+    border-collapse		: collapse;
+    margin				: auto;
+    border-radius		: 5px;
+    overflow			: hidden;
+}
+
+#tr_id{
+    width				: 50px;
+}
+#tr_nom{
+    width				: 200px;
+}
+#tr_cons{
+    width				: 100px;
+}
+#tr_prix{
+    width				: 50px;
+}
+#tr_nbj{
+    width				: 120px;
+}
+#tr_com{
+    width				: 300px;
+}
+#tr_prop{
+    width				: 50px;
+}
+
+td,th{
+    border				: 1px solid black;
+    padding				: 5px;
+}
+
+#div_operations_admin{
+    width				: 1400px;
+    height				: 400px;
+    background			: rgba(255,255,255,1);
+
+
+}
+#div_operations_admin label{
+    width				: 150px;
+    color				: black;
+    font-size			: 1.2em;
+}
+
+#listes_operation_admin{
+    width				: 200px;
+
+}
+
+#operationAdminSelected{
+    visibility			: hidden;
+}
+
+
+
+#formulaireAjout label{
+    width               :200px;
+    text-align          :center;
+}
+
+
+#formulaireAjout input{
+    width               :200px;
+    height              :20px;
+    margin-right        :90px;
+}
+
+#formulaireAjout input[name="nom"]{
+    width               :150px;
+    margin-left         :25px;
+}
+#formulaireAjout input[name="console"]{
+    width               :100px;
+    margin-left         :50px;
+}
+#formulaireAjout input[name="prix"]{
+    width               :50px;
+    margin-left         :75px;
+}
+#formulaireAjout input[name="nb_joueurs"]{
+    width               :50px;
+    margin-left         :75px;
+}
+#formulaireAjout input[name="commentaires"]{
+    width               :200px;
+    height              :90px;
+}
+#formulaireAjout input[name="proprietaire_ID"]{
+    width               :100px;
+    margin-left         :50px;
+}
+
+form button{
+    width               :100px;
+    margin-left         :50px;
+    background-color    :lightgray;
+    color               :black;
+    text-align          :center;
+}
+
+table button{
+    background-color    :lightgray;
+    color               :black;
+    text-align          :center;
+}
+

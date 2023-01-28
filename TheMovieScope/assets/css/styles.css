@@ -1,0 +1,15 @@
+body {
+  background-image: url(../../assets/img/background.jpg);
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  #212529: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
